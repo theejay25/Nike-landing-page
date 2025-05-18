@@ -1,0 +1,14 @@
+@layer {
+
+    .wrapper-div {
+        @apply duration-800 z-0
+    }
+
+    .ul-div {
+        @apply h-[23vh] top-0 absolute w-[40vw] block bg-[#2d2d2d] capitalize ml-[50%] duration-100
+    }
+
+    .cart-numbers {
+        @apply h-[21px] w-[21px] absolute duration-700 ring-white rounded-[100%] text-sm text-center ml-[18vw] mt-[-3vh]
+    }
+}

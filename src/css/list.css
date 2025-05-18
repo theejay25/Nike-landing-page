@@ -1,0 +1,9 @@
+@layer {
+    .list{
+        @apply cursor-pointer duration-100 w-full text-center py-2 
+    }
+
+    .list:hover {
+        @apply text-gray-300
+    }
+}
