@@ -5,7 +5,7 @@
     }
 
     .ul-div {
-        @apply h-[23vh] top-0 absolute w-[40vw] block bg-[#2d2d2d] capitalize ml-[50%] duration-100
+        @apply h-[23vh] top-0 absolute w-[40vw] block bg-[#2d2d2d] capitalize ml-[50%] duration-100 z-100
     }
 
     .cart-numbers {

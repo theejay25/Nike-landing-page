@@ -1,4 +1,8 @@
 @import "tailwindcss";
 
 @import './css/list.css';
-@import './css/divs.css'
+@import './css/divs.css';
+
+body {
+    overflow: hidden;
+}

@@ -3,6 +3,7 @@ import { CiSearch, CiShoppingCart, CiMenuFries } from "react-icons/ci";
 import { RiCloseLargeFill } from "react-icons/ri";
 import logo from './assets/images/favicon.png'
 import Background from "./components/Background";
+import OverlayPage from "./components/OverlayPage";
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
           <div className="h-full w-[35vw] flex flex-row justify-between items-center pr-2">
             <CiSearch className="h-[7vh] w-[7vw] text-white cursor-pointer"/>
             <CiShoppingCart className="h-[7vh] w-[7vw] text-white cursor-pointer" />
-            <div onClick={(e) => {
+            <div className="z-100" onClick={(e) => {
               e.stopPropagation()
               setClicked(!clicked)
               }}>
@@ -54,7 +55,8 @@ function App() {
         </button>
 
       </div>
-      <Background />
+      <OverlayPage Click={() => setClicked(false)} />
+      <Background  Click={() => setClicked(false)}/>
     </>
   )
 }

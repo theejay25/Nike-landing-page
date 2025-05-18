@@ -1,9 +1,12 @@
 import Bg from '../assets/images/Bg.png'
 
-const Background = () => {
+interface props {
+    Click: React.MouseEventHandler<HTMLDivElement>
+}
+const Background = ({Click}: props) => {
   return (
     <>
-    <div className="z-10 top-0 h-full w-full absolute">
+    <div className="z-0 top-0 h-full w-full absolute" onClick={Click}>
         <img src={Bg} alt="" className='h-full w-full opacity-30' />
     </div>
     </>
