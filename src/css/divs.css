@@ -11,4 +11,8 @@
     .cart-numbers {
         @apply h-[21px] w-[21px] absolute duration-700 ring-white rounded-[100%] text-sm text-center ml-[18vw] mt-[-3vh]
     }
+
+    .shoe-image{
+        @apply w-[100vw] lg:w-[60vw] mt-[-15vh] ml-[22vw] lg:ml-[40vw] rotate-320
+    }
 }

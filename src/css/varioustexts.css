@@ -1,0 +1,5 @@
+@layer {
+    .title-text {
+        @apply uppercase font-extrabold text-white
+    }
+}

@@ -2,6 +2,7 @@
 
 @import './css/list.css';
 @import './css/divs.css';
+@import './css/varioustexts.css';
 
 body {
     overflow: hidden;
