@@ -1,6 +1,6 @@
 @layer {
     .list{
-        @apply cursor-pointer duration-100 w-full text-center py-2 
+        @apply cursor-pointer duration-100 w-full text-center xl:mt-[-.3%]
     }
 
     .list:hover {
